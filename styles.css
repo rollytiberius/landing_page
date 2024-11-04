@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 2px solid black;
 }
 
 .body {
@@ -14,11 +14,17 @@ h1 {
   color: red;
 }
 
+.logo {
+  color: lightgray;
+  font-size: 3rem;
+}
+
 .top-section {
   height: 300px;
   background: #1F2937;
   display: flex;
   justify-content: space-between;
+
 }
 
 .content-section {
@@ -42,4 +48,26 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.top-nav {
+  display: flex;
+  align-items: space-between;
+}
+
+.top-nav1 {
+  height: 50px;
+  width: 150px;
+}
+
+.top-nav2 {
+  height: 30px;
+  width: 250px;
+}
+
+.top-nav2 a {
+  color: lightgray;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 10px;
 }
