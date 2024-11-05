@@ -53,6 +53,7 @@ h1 {
 .top-nav {
   display: flex;
   align-items: space-between;
+  color: color(srgb red green blue);
 }
 
 .top-nav1 {
