@@ -20,6 +20,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.content-section h1 {
+  color: black;
+}
+
 .description {
   max-width: 500px;
 }
@@ -49,9 +53,6 @@ h1 {
 
 }
 
-.content-section {
-  height: 100px;
-}
 
 .moto-section {
   height: 100px;
@@ -111,9 +112,21 @@ h1 {
   max-width: 500px;
 }
 
-img {
+.picture img {
   width: auto;
   height: 300px;
   margin: 0px 30px 10px 30px;
+
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+
+.img-content img {
+  height: 150px;
+  margin: 20px;
 
 }
