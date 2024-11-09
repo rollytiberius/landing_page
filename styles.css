@@ -55,13 +55,51 @@ h1 {
 
 
 .moto-section {
-  height: 100px;
-  background: #1F8900;
+  background: #E5E7EB;
+}
+
+.moto-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  font-style: oblique;
 }
 
 .call-section {
-  height: 100px;
-  background: #FF2917;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.call-action {
+  background: #3b81f5;
+  width: 900px;
+  height: 120px;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: space-between;
+}
+
+.call-action>div {
+  margin: 10px;
+}
+
+.call-action>div>button {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.button-cont {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-section {
@@ -125,8 +163,21 @@ h1 {
   justify-content: space-around;
 }
 
+.content-section>h1 {
+  color: darkblue;
+  justify-self: center;
+}
+
 .img-content img {
   height: 150px;
   margin: 20px;
+  border: 5px solid #3882F6;
+  border-radius: 10px;
 
+}
+
+.img-content>p {
+  max-width: 200px;
+  justify-self: center;
+  margin-bottom: 20px;
 }
